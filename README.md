@@ -7,7 +7,7 @@ docker-compose -f docker-compose.yml up -d --build
 
  - Создание табилицы cars
 ```shell
-alembic upgrade head 
+docker-compose -f docker-compose.yml exec api alembic upgrade head 
 ```
 
  - Запустить скрипт с тестовами данными 
