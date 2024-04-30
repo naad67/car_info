@@ -1,0 +1,6 @@
+fastapi
+uvicorn[standard]
+databases[asyncpg]
+alembic
+pydantic_settings
+psycopg2
